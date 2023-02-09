@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /tmp; file iamafile | awk '{print $2}'
+cd /tmp; output=$(file iamafile); echo "${output##* }"
