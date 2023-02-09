@@ -1,2 +1,4 @@
 #!/bin/bash
-html_files=(*.html)
+cd /tmp
+filetype=$(file iamafile)
+echo "The type of the file iamafile is: $filetype"
