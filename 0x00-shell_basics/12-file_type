@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /tmp; output=$(file iamafile); echo "${output##* }"
+file /tmp/iamafile 
