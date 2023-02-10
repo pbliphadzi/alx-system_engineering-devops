@@ -1,4 +1,2 @@
 #!/bin/bash
-cd /tmp
-filetype=$(file iamafile)
-echo "The type of the file iamafile is: $filetype"
+for file in *.html; do cp -u "$file" "$(dirname "$(pwd)")"
