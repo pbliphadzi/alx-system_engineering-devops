@@ -9,6 +9,6 @@ do
 	   echo "good luck"
 	else
 	   echo "Best School"
-	fi
+	if
 	a=$((a+1))
 done
