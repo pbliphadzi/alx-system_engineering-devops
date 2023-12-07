@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#comment baout what script does
 
 apt-get install -y software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-1.8
