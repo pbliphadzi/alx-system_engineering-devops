@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
- # comment about the code
+
+# Connect to the server using ssh with the private key ~/.ssh/school and the user ubuntu
+
 
 server="52.3.242.195"
 
