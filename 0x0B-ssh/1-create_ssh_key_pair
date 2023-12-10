@@ -3,12 +3,4 @@
 
 #!/bin/bash
 
-passphrase="betty"
-
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/school_temp
-
-echo "$passphrase" | ssh-keygen -p -P "" -N "" -f ~/.ssh/school_temp
-
-mv ~/.ssh/school_temp ~/.ssh/school
-
-echo "RSA key pair created successfully."
+ssh-keygen -t rsa -f school -b 4096 -N betty
