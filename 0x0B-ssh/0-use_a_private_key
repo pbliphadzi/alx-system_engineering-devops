@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
- #comment about the code
+ # comment about the code
 
 server="52.3.242.195"
 
