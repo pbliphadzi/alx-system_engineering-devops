@@ -1,0 +1,34 @@
+What happens when you type google.com in your browser and press Enter
+
+When you type “https://www.google.com" into your browser and press Enter, a complex series of actions occur behind the scenes that eventually display the Google homepage. This sequence involves various components of the web stack working together seamlessly.
+
+1. DNS Request:
+Your browser initiates a Domain Name System (DNS) lookup to resolve the domain name “www.google.com" into an IP address. This involves querying a DNS server to obtain the corresponding IP address for the entered domain.
+
+2. TCP/IP:
+Once the IP address is obtained, a Transmission Control Protocol (TCP) connection is established between your computer and Google’s server using the Internet Protocol (IP). TCP ensures reliable data transmission by dividing information into packets and verifying their successful delivery.
+
+3. Firewall:
+The packets containing the request and response data pass through network firewalls, which act as a barrier protecting against unauthorized access. Firewalls apply rules to filter incoming and outgoing traffic, ensuring security and preventing potential threats.
+
+4. HTTPS/SSL:
+If the connection is set to HTTPS (Hypertext Transfer Protocol Secure), an additional layer of security is introduced. This involves an SSL/TLS (Secure Sockets Layer/Transport Layer Security) handshake between your browser and Google’s server to encrypt data exchanged during communication, safeguarding it from interception or tampering.
+
+5. Load Balancer:
+Incoming requests often encounter load balancers, especially in high-traffic scenarios like Google’s servers. Load balancers distribute incoming requests across multiple servers to optimize resource utilization and maintain system performance, preventing any single server from being overwhelmed.
+
+6. Web Server:
+Upon reaching Google’s web server, the browser’s request for the specific webpage is processed. The web server handles the HTTP request, retrieves the necessary files, such as HTML, CSS, JavaScript, and images, and generates a response to send back to the browser.
+
+7. Application Server:
+For more dynamic content, like search results, the web server might communicate with an application server. The application server executes specific programs or scripts, retrieves data from databases, performs necessary computations, and generates a response to the web server.
+
+8. Database:
+In cases where data retrieval or storage is required, the application server interacts with a database. For Google, this might involve retrieving indexed search results from an extensive database, which the application server processes and sends back to the web server.
+
+As a result of these sequential processes, the browser receives the necessary files and data, which it interprets and renders as the Google homepage. This entire sequence occurs within milliseconds, showcasing the intricate yet efficient workings of the web stack.
+
+Understanding these components and their interactions provides insight into the complexity behind seemingly simple actions performed on the internet. Each element plays a crucial role in delivering a seamless user experience while ensuring security, reliability, and optimal performance.
+
+
+Who knew there was this entire process behind typing www.google.com?
